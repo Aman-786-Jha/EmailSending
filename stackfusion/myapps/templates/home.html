@@ -1,0 +1,11 @@
+<h1>All forms data</h1>
+{% for responses in response %} 
+<h3 style="display:inline">ID:- </h3><span>{{responses.id}}</span>
+<h3 style="display:inline">Name:- </h3><span>{{responses.name}}</span>
+<h3 style="display:inline">Email:- </h3><span>{{responses.email}}</span>
+<h3 style="display:inline">DOB:- </h3><span>{{responses.dob}}</span>
+<h3 style="display:inline">Phone No.:- </h3><span>{{responses.phone_number}}</span>
+
+<hr>
+
+{% endfor %} 
